@@ -58,6 +58,7 @@ namespace webusers.Data
             CreatePasswordHash( password, out byte[] passwordHash, out byte[] passwordSalt );
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
+            _context.Users.Add( user );
             await _context.SaveChangesAsync();
             response.Data = user.Id;
             response.Status = true;
@@ -77,7 +78,7 @@ namespace webusers.Data
                 response.Message = "Password incorrecto";
                 return response;
             }
-            response.Status = false;
+            response.Status = true;
             response.Data = CreateToken( user );
             return response;
         }

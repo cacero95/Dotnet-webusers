@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zero/Documents/Dotnet/webusers/webusers.csproj": {}
+    "/Users/andresacerosanchez/Documents/Dotnet/Dotnet-webusers/webusers.csproj": {}
   },
   "projects": {
-    "/Users/zero/Documents/Dotnet/webusers/webusers.csproj": {
+    "/Users/andresacerosanchez/Documents/Dotnet/Dotnet-webusers/webusers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zero/Documents/Dotnet/webusers/webusers.csproj",
+        "projectUniqueName": "/Users/andresacerosanchez/Documents/Dotnet/Dotnet-webusers/webusers.csproj",
         "projectName": "webusers",
-        "projectPath": "/Users/zero/Documents/Dotnet/webusers/webusers.csproj",
-        "packagesPath": "/Users/zero/.nuget/packages/",
-        "outputPath": "/Users/zero/Documents/Dotnet/webusers/obj/",
+        "projectPath": "/Users/andresacerosanchez/Documents/Dotnet/Dotnet-webusers/webusers.csproj",
+        "packagesPath": "/Users/andresacerosanchez/.nuget/packages/",
+        "outputPath": "/Users/andresacerosanchez/Documents/Dotnet/Dotnet-webusers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/zero/.nuget/NuGet/NuGet.Config"
+          "/Users/andresacerosanchez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

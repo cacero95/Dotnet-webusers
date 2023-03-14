@@ -19,8 +19,8 @@ public class AuthController : ControllerBase
     }
     [ HttpPost( "Login" ) ]
     public async Task<ActionResult<ServiceResponse<int>>> Login( UserLoginDto request ) {
-        var response = await _authRepo.Register(
-            new User { UserName = request.Username }, request.Password
+        var response = await _authRepo.Login(
+            request.Username, request.Password
         );
         return response.Status ? Ok( response ) : BadRequest( response );
     }
